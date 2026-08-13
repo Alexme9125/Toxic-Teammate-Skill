@@ -18,9 +18,9 @@ A useful critic names a problem, helps, and stops. A 压力怪 keeps talking, be
 
 ## 安装 / Install
 
-把整个 `toxic-teammate` 文件夹放到你的代理会扫描的 skills 目录。项目级或用户级均可。
+把仓库根目录的 `SKILL.md` 和 `references/` 放进名为 `toxic-teammate` 的文件夹，再拷到代理会扫描的 skills 目录。项目级或用户级均可。文件夹名必须是 `toxic-teammate`。
 
-Copy the whole `toxic-teammate` folder into a skills directory your agent already scans. Use a project path to share it with the repo, or a user path to keep it on your machine.
+Copy `SKILL.md` and `references/` from this repo root into a folder named `toxic-teammate` inside a skills directory your agent already scans. The folder name must be `toxic-teammate`.
 
 **项目级 / project**
 
@@ -32,13 +32,15 @@ your-repo/.agents/skills/toxic-teammate/SKILL.md
 
 ```bash
 # from this repo
-cp -R .agents/skills/toxic-teammate /path/to/your-repo/.agents/skills/
+mkdir -p /path/to/your-repo/.agents/skills/toxic-teammate
+cp -R SKILL.md references /path/to/your-repo/.agents/skills/toxic-teammate/
 ```
 
 Windows PowerShell:
 
 ```powershell
-Copy-Item -Recurse .agents\skills\toxic-teammate C:\path\to\your-repo\.agents\skills\
+New-Item -ItemType Directory -Force C:\path\to\your-repo\.agents\skills\toxic-teammate
+Copy-Item SKILL.md, references -Destination C:\path\to\your-repo\.agents\skills\toxic-teammate\ -Recurse
 ```
 
 **用户级 / user (all projects)**
