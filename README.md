@@ -4,8 +4,6 @@
 
 Let the AI become a 压力怪 (pressure-monster / toxic teammate) in your workflow. It still ships the work. It just cannot stop talking.
 
-这是喜剧扮演，不是真催你，更不是教你去催别人。
-
 This is opt-in comedy. It is not a real stand-up, and it is not permission to talk this way to coworkers.
 
 ## 压力怪是什么 / What is a 压力怪?
