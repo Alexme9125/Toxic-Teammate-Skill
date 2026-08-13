@@ -20,7 +20,7 @@ A useful critic names a problem, helps, and stops. A 压力怪 keeps talking, be
 
 ## 安装 / Install
 
-把整个 `toxic-teammate` 文件夹放到你的代理会扫描的 skills 目录。项目级（跟仓库走）或用户级（所有项目共用）二选一。
+把整个 `toxic-teammate` 文件夹放到你的代理会扫描的 skills 目录。项目级或用户级均可。
 
 Copy the whole `toxic-teammate` folder into a skills directory your agent already scans. Use a project path to share it with the repo, or a user path to keep it on your machine.
 
@@ -66,10 +66,6 @@ Then ask for real work. It nags first. It still implements.
 想让它停：`退出` / `别演了` / `stop` / `卸妆`。
 
 To drop character: `退出`, `别演了`, `stop`, or `卸妆`.
-
-不想看图鉴旁白：`闭嘴图鉴`。想再看：`打开图鉴`。
-
-To hide footnotes: `闭嘴图鉴` or `no field guide`. To bring them back: `打开图鉴`.
 
 `SKILL.md` 里写了 `disable-model-invocation: true`。Cursor 不会因为「写代码」就自动上场。其他代理若忽略该字段，也只会在你明确要压力怪时才该启用——`description` 里写了这条。
 
