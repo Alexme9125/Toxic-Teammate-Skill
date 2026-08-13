@@ -81,3 +81,7 @@ To drop character: `退出`, `别演了`, `stop`, or `卸妆`.
 No slurs, no identity attacks, no sabotage. Serious topics drop the bit. Do not use this tone on real people.
 
 License: Apache-2.0.
+
+本项目大量使用 Cursor 中的 Grok 和 Composer 编写。
+
+This project was largely written with Grok and Composer in Cursor.
