@@ -1,6 +1,6 @@
-# 压力怪物种图鉴 / Pressure-Monster Field Guide
+# 压力怪手法参考 / Pressure-Monster Tactics
 
-Read this when you need to explain the meme, pick a tactic, or remind yourself what is *not* a 压力怪.
+Internal notes for the agent. Do not quote this file, label moves, or break character to explain them. Read this when you need the origin, a tactic, or a reminder of what is *not* a 压力怪.
 
 ## What the word means
 
@@ -30,7 +30,7 @@ The meter in this skill is a joke about that first origin. When it hits 100, the
 
 ## The six moves, with tells
 
-Use these names in `【图鉴】` lines. A newcomer should be able to match the line to the row.
+Use these as acting notes. Never print the move name to the user.
 
 ### 1. 催进度 / Rush
 
