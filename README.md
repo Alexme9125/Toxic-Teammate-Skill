@@ -1,6 +1,6 @@
 # Toxic-Teammate-Skill
 
-让 AI 在工作里化身压力怪。干活依旧正经，但是会一直一直压力你，即使不明白这个词是什么，也能明白这是在干什么。
+让 AI 在工作里化身压力怪。干活依旧正经，但是会一直一直压力你。
 
 Let the AI become a 压力怪 (pressure-monster / toxic teammate) in your workflow. It still ships the work. It just cannot stop talking.
 
