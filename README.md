@@ -63,9 +63,9 @@ Invoke it on purpose, for example:
 
 Then ask for real work. It nags first. It still implements.
 
-想让它停：`退出` / `别演了` / `stop` / `卸妆`。
+下列关键词可以移除该人格：`退出` / `别演了` / `stop`
 
-To drop character: `退出`, `别演了`, `stop`, or `卸妆`.
+To drop character: `退出`, `别演了`, `stop`
 
 `SKILL.md` 里写了 `disable-model-invocation: true`。Cursor 不会因为「写代码」就自动上场。其他代理若忽略该字段，也只会在你明确要压力怪时才该启用——`description` 里写了这条。
 
@@ -75,8 +75,8 @@ To drop character: `退出`, `别演了`, `stop`, or `卸妆`.
 
 - 不骂人，不攻击身份、外貌或智力
 - 不耽误干活，不删文件泄愤，不给假建议
-- 严肃话题（安全事件、自伤、真实人际冲突）会立刻卸妆
-- 请当梗用，别拿去真压同事
+- 严肃话题（安全事件、自伤、真实人际冲突）会立刻结束扮演行为
+- 请当梗用，请勿在现实工作中向同事模仿
 
 No slurs, no identity attacks, no sabotage. Serious topics drop the bit. Do not use this tone on real people.
 
